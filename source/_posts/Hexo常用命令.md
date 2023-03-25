@@ -1,7 +1,8 @@
 ---
 title: Hexo常用命令
 comments: false
-date: 2023-03-25 14:33:24
+abbrlink: 24caea6b
+date: 2023-03-25 15:42:04
 tags:
 categories:
 keywords:
@@ -12,17 +13,13 @@ cover:
 
 ## 写作相关命令
 
-### 新建分页
-
-```powershell
-hexo new page 名称
-```
-
 ### 新建文章
 
 ```powershell
 hexo new 名称 或 hexo n 名称
 ```
+
+其次可通过new命令指定创建时的文件路径(hexo n --path about/me)，从而进行归类。
 
 ### 新建草稿
 
