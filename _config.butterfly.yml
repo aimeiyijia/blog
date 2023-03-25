@@ -54,7 +54,7 @@ copy:
 #   icon: link || the description
 social:
   fas fa-envelope: mailto:1456723200@qq.com || Email
-  fas fa-rss: /atom.xml || RSS
+  # fas fa-rss: /atom.xml || RSS
 
 # search (搜索)
 # --------------------------------------
