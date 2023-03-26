@@ -11,7 +11,7 @@ keywords: "hexo,butterfly,主题,doc,教程,文档"
 description: Butterfly安装文档-快速开始
 cover: 
 abbrlink: 21cfbf15
-sticky: 100
+# sticky: 100
 comments: false
 ---
 
