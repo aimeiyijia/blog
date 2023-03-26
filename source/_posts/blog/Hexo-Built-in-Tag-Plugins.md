@@ -346,31 +346,31 @@ For instance:
 
 **Display title of the post.**
 
-`{% raw %}{% post_link Butterfly-标签插件 %}{% endraw %}`
+`{% raw %}{% post_link blog/Butterfly-标签插件 %}{% endraw %}`
 
-{% post_link Butterfly-标签插件 %}
+{% post_link blog/Butterfly-标签插件 %}
 
 **Display custom text.**
 
-`{% raw %}{% post_link Butterfly-标签插件 'Link to a post' %}{% endraw %}`
+`{% raw %}{% post_link blog/Butterfly-标签插件 'Link to a post' %}{% endraw %}`
 
-{% post_link Butterfly-标签插件 'Link to a post' %}
+{% post_link blog/Butterfly-标签插件 'Link to a post' %}
 
 **Escape title.**
 
 ```
-{% post_link Butterfly-标签插件 'How to use <b> tag in title' %}
+{% post_link blog/Butterfly-标签插件 'How to use <b> tag in title' %}
 ```
 
-{% post_link Butterfly-标签插件 'How to use <b> tag in title' %}
+{% post_link blog/Butterfly-标签插件 'How to use <b> tag in title' %}
 
 **Do not escape title.**
 
 ```
-{% post_link Butterfly-标签插件 '<b>bold</b> custom title' false %}
+{% post_link blog/Butterfly-标签插件 '<b>bold</b> custom title' false %}
 ```
 
-{% post_link Butterfly-标签插件 '<b>bold</b> custom title' false %}
+{% post_link blog/Butterfly-标签插件 '<b>bold</b> custom title' false %}
 
 ## Include Assets
 

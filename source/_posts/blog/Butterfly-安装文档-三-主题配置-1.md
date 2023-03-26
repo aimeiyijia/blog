@@ -17,7 +17,7 @@ comments: false
 {% note green 'fas fa-rocket' %}
 📚 文档目录
 
-{% post_link Butterfly-安装文档-一-快速开始 ' 🚀 快速开始' %} - {% post_link Butterfly-安装文档-二-主题页面 ' 📑 主题页面' %} - {% post_link Butterfly-安装文档-三-主题配置-1 ' 🛠 主题配置-1' %} - {% post_link Butterfly-安装文档-四-主题配置-2 ' ⚔️ 主题配置-2' %} - {% post_link Butterfly-安装文档-五-进阶教程 ' ⚡️ 进阶教程' %}
+{% post_link blog/Butterfly-安装文档-一-快速开始 ' 🚀 快速开始' %} - {% post_link blog/Butterfly-安装文档-二-主题页面 ' 📑 主题页面' %} - {% post_link blog/Butterfly-安装文档-三-主题配置-1 ' 🛠 主题配置-1' %} - {% post_link blog/Butterfly-安装文档-四-主题配置-2 ' ⚔️ 主题配置-2' %} - {% post_link blog/Butterfly-安装文档-五-进阶教程 ' ⚡️ 进阶教程' %}
 
 {% endnote %}
 
@@ -169,7 +169,7 @@ highlight_theme: light
 
 如何自定义主题，请查看下面这篇文章。
 
-{% post_link Butterfly-自定义代码配色 ' Butterfly-自定义代码配色' %}
+{% post_link blog/Butterfly-自定义代码配色 ' blog/Butterfly-自定义代码配色' %}
 
 <!-- endtab -->
 
@@ -2636,4 +2636,4 @@ xxxxxx
 
 ![](https://file.crazywong.com/gh/jerryc127/CDN@m2/img/hexo-theme-butterfly-docs-flink-demo.png)
 
-{% btn '/posts/ceeb73f/',⚔️ Butterfly-安装文档-四-主题配置-2,far fa-hand-point-right,block red right larger %}
+{% btn '/posts/ceeb73f/',⚔️ blog/Butterfly-安装文档-四-主题配置-2,far fa-hand-point-right,block red right larger %}

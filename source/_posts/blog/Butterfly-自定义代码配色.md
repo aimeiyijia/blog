@@ -7,16 +7,16 @@ tags:
   - butterfly
 categories: 进阶教程
 keywords: 'hexo,butterfly,主题,doc,教程,文档'
-description: Butterfly-自定义代码配色
+description: blog/Butterfly-自定义代码配色
 cover: 
 abbrlink: b37b5fe3
 date: 2022-03-24 16:20:42
 comments: false
 ---
 
-在[Butterfly-安装文档-三-主题配置](http://butterfly.js.org/posts/4aa8abbe/#代码高亮主题)中已经介绍了如何使用Butterfly-自定义代码配色。
+在[Butterfly-安装文档-三-主题配置](http://butterfly.js.org/posts/4aa8abbe/#代码高亮主题)中已经介绍了如何使用blog/Butterfly-自定义代码配色。
 
-这篇文章是使用Butterfly-自定义代码配色的实例教程。
+这篇文章是使用blog/Butterfly-自定义代码配色的实例教程。
 
 ## Highlight
 

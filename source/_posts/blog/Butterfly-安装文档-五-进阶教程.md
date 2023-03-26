@@ -18,7 +18,7 @@ comments: false
 
  📚  文档目录
 
-{% post_link Butterfly-安装文档-一-快速开始 ' 🚀 快速开始' %} - {% post_link Butterfly-安装文档-二-主题页面 ' 📑 主题页面' %} - {% post_link Butterfly-安装文档-三-主题配置-1 ' 🛠 主题配置-1' %} - {% post_link Butterfly-安装文档-四-主题配置-2 ' ⚔️ 主题配置-2' %} - {% post_link Butterfly-安装文档-五-进阶教程 ' ⚡️ 进阶教程' %} 
+{% post_link blog/Butterfly-安装文档-一-快速开始 ' 🚀 快速开始' %} - {% post_link blog/Butterfly-安装文档-二-主题页面 ' 📑 主题页面' %} - {% post_link blog/Butterfly-安装文档-三-主题配置-1 ' 🛠 主题配置-1' %} - {% post_link blog/Butterfly-安装文档-四-主题配置-2 ' ⚔️ 主题配置-2' %} - {% post_link blog/Butterfly-安装文档-五-进阶教程 ' ⚡️ 进阶教程' %} 
 
 {% endnote %}
 
@@ -86,7 +86,7 @@ aplayer: true
 
 具体配置查看[插件文档](https://github.com/jerryc127/butterfly-plugins/tree/main/hexo-butterfly-hpptalk)
 
-## Butterfly-自定义代码配色
+## blog/Butterfly-自定义代码配色
 
 {% btn '/posts/b37b5fe3/','点击前往',fas fa-code,block blue %}
 
