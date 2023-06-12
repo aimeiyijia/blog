@@ -53,8 +53,8 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0
   hexo-theme-butterfly:
-    specifier: ^4.8.1
-    version: 4.8.1
+    specifier: ^4.9.0
+    version: 4.9.0
   hexo-util:
     specifier: ^3.0.1
     version: 3.0.1
@@ -63,6 +63,10 @@ dependencies:
     version: 6.0.1
 
 packages:
+
+  /@adobe/css-tools@4.2.0:
+    resolution: {integrity: sha512-E09FiIft46CmH5Qnjb0wsW54/YQd69LsxeKUOWawmws1XWvyFGURnAChH0mlr7YPFR1ofwvUQfcL0J3lMxXqPA==}
+    dev: false
 
   /@babel/helper-string-parser@7.19.4:
     resolution: {integrity: sha512-nHtDoQcuqFmwYNYPz3Rah5ph2p8PFeFCsZk9A/48dPc/rGocJ5J3hAAZ7pb76VWX3fZKu+uEr/FhH5jLx7umrw==}
@@ -1270,6 +1274,16 @@ packages:
       - supports-color
     dev: false
 
+  /hexo-renderer-stylus@3.0.0:
+    resolution: {integrity: sha512-wgKOcjUzq1i4Y70luoyYDbh91QeQcDzJO+v1598LgY+IdREFAm+vy1MWtl/TZsVXyPaEtsULNi3Vi22hdsPUSA==}
+    engines: {node: '>=14'}
+    dependencies:
+      nib: 1.2.0(stylus@0.59.0)
+      stylus: 0.59.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /hexo-server@3.0.0:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
@@ -1286,11 +1300,11 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-theme-butterfly@4.8.1:
-    resolution: {integrity: sha512-QwcjBst0BhQjd1ve8Eh/GwmH7dzBUjvMEY3Q4qzheLGpgjy+tiMWXpvqwUDHPHTWQOB5oXAAkO8j1l3gONuaiQ==}
+  /hexo-theme-butterfly@4.9.0:
+    resolution: {integrity: sha512-/aWtJJm90s/Z8RnnJm3U1wH05KTNtUz49TS7Wk8ItPRt2L4+tSIh1h7PPslwEJ5YpNfQH9DUZ7eHf4SzBIQj1w==}
     dependencies:
       hexo-renderer-pug: 3.0.0
-      hexo-renderer-stylus: 2.1.0
+      hexo-renderer-stylus: 3.0.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1836,6 +1850,14 @@ packages:
       stylus: '*'
     dependencies:
       stylus: 0.57.0
+    dev: false
+
+  /nib@1.2.0(stylus@0.59.0):
+    resolution: {integrity: sha512-7HgrnMl/3yOmWykueO8/D0q+0iWwe7Z+CK2Eaq/xQV8w1hK80WN1oReRQkfkrztbAAnp/nTHkUSl5EcVkor6JQ==}
+    peerDependencies:
+      stylus: '*'
+    dependencies:
+      stylus: 0.59.0
     dev: false
 
   /no-case@3.0.4:
@@ -2470,6 +2492,19 @@ packages:
       debug: 4.3.4
       glob: 7.2.3
       safer-buffer: 2.1.2
+      sax: 1.2.4
+      source-map: 0.7.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /stylus@0.59.0:
+    resolution: {integrity: sha512-lQ9w/XIOH5ZHVNuNbWW8D822r+/wBSO/d6XvtyHLF7LW4KaCIDeVbvn5DF8fGCJAUCwVhVi/h6J0NUcnylUEjg==}
+    hasBin: true
+    dependencies:
+      '@adobe/css-tools': 4.2.0
+      debug: 4.3.4
+      glob: 7.2.3
       sax: 1.2.4
       source-map: 0.7.4
     transitivePeerDependencies:
