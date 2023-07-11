@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   hexo:
     specifier: ^6.3.0
@@ -56,8 +60,8 @@ dependencies:
     specifier: ^4.8.1
     version: 4.8.1
   hexo-util:
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.1.0
+    version: 3.1.0
   hexo-wordcount:
     specifier: ^6.0.1
     version: 6.0.1
@@ -753,8 +757,8 @@ packages:
       domhandler: 4.3.1
     dev: false
 
-  /domutils@3.0.1:
-    resolution: {integrity: sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==}
+  /domutils@3.1.0:
+    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
     dependencies:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
@@ -1309,16 +1313,16 @@ packages:
       strip-indent: 3.0.0
     dev: false
 
-  /hexo-util@3.0.1:
-    resolution: {integrity: sha512-ri3WsEUWSfrjydYPeOaWvrYIzfVBiaXUy0846051MkuJxBcNtG2o87q0KFGiniSMmi0XxLQhSl415anU3+FFlA==}
+  /hexo-util@3.1.0:
+    resolution: {integrity: sha512-LmztAhkJHQ59VHqz6AnvwEKiNA0pCBBI0qW08cCzjhnpGoqZ8tlGDwElzy7oTxCvMChkiqg5V8VflhdI8tHsGg==}
     engines: {node: '>=14'}
+    requiresBuild: true
     dependencies:
-      bluebird: 3.7.2
       camel-case: 4.1.2
       cross-spawn: 7.0.3
       deepmerge: 4.3.1
       highlight.js: 11.7.0
-      htmlparser2: 8.0.2
+      htmlparser2: 9.0.0
       prismjs: 1.29.0
       strip-indent: 3.0.0
     dev: false
@@ -1381,12 +1385,12 @@ packages:
       entities: 3.0.1
     dev: false
 
-  /htmlparser2@8.0.2:
-    resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
+  /htmlparser2@9.0.0:
+    resolution: {integrity: sha512-uxbSI98wmFT/G4P2zXx4OVx04qWUmyFPrD2/CNepa2Zo3GPNaCaaxElDgwUrwYWkK1nr9fft0Ya8dws8coDLLQ==}
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.0.1
+      domutils: 3.1.0
       entities: 4.5.0
     dev: false
 
